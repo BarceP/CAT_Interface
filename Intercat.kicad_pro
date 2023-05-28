@@ -326,7 +326,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "error",
@@ -430,6 +430,10 @@
     [
       "03d88a85-11fd-47aa-954c-c318bb15294a",
       ""
+    ],
+    [
+      "59340727-7477-481f-9a33-ca352ff8276a",
+      "Analog Filter"
     ]
   ],
   "text_variables": {}
