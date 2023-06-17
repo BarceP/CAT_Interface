@@ -434,6 +434,10 @@
     [
       "59340727-7477-481f-9a33-ca352ff8276a",
       "Analog Filter"
+    ],
+    [
+      "fcde6974-78be-43f2-8f1f-c3bd2febfa67",
+      "Digital Isolator"
     ]
   ],
   "text_variables": {}
