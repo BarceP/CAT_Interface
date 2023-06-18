@@ -1747,11 +1747,11 @@
     (pin "1" (uuid 27eb1c7f-d412-4a0f-aed4-0bef46b9346a))
     (pin "2" (uuid c3a5af7a-a7a1-479f-ae78-d27c87a54ab3))
     (pin "3" (uuid 3b2f46d2-9e66-4b8e-af47-69e3c6591113))
-    (pin "5" (uuid 7d7ccfea-f12c-480b-9f52-7cf066406569))
-    (pin "6" (uuid 9448d660-7fa2-47a5-b847-c611aad34a3e))
-    (pin "7" (uuid a06833a6-f565-41ee-82ad-866968e113d6))
-    (pin "4" (uuid 7ae2752a-fe9b-4edc-9007-fbbb36cefca6))
-    (pin "8" (uuid 953103e8-9e6c-4586-b960-7b52677de145))
+    (pin "5" (uuid 7d7ccfea-f12c-480b-9f52-7cf06640656a))
+    (pin "6" (uuid 9448d660-7fa2-47a5-b847-c611aad34a3f))
+    (pin "7" (uuid a06833a6-f565-41ee-82ad-866968e113d7))
+    (pin "4" (uuid 7ae2752a-fe9b-4edc-9007-fbbb36cefca7))
+    (pin "8" (uuid 953103e8-9e6c-4586-b960-7b52677de146))
     (instances
       (project "Intercat"
         (path "/03d88a85-11fd-47aa-954c-c318bb15294a/59340727-7477-481f-9a33-ca352ff8276a"
@@ -2148,12 +2148,12 @@
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl081.pdf" (at 62.23 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 34caad64-08c3-4567-8905-64ccedb658e2))
-    (pin "2" (uuid 065ca633-33da-49fb-8521-9b9a8c4b34a7))
-    (pin "3" (uuid 6ad4cd4a-a72d-4eb5-99c4-2834f9925c72))
-    (pin "5" (uuid 601b1e45-0037-40b8-9a9a-2bd8e5b9982c))
-    (pin "6" (uuid 38e65352-88f9-4bd4-b14f-71afdb1de681))
-    (pin "7" (uuid 5dab984a-73be-48c3-8eff-18d159e2c458))
+    (pin "1" (uuid 34caad64-08c3-4567-8905-64ccedb658e3))
+    (pin "2" (uuid 065ca633-33da-49fb-8521-9b9a8c4b34a8))
+    (pin "3" (uuid 6ad4cd4a-a72d-4eb5-99c4-2834f9925c73))
+    (pin "5" (uuid 601b1e45-0037-40b8-9a9a-2bd8e5b9982d))
+    (pin "6" (uuid 38e65352-88f9-4bd4-b14f-71afdb1de682))
+    (pin "7" (uuid 5dab984a-73be-48c3-8eff-18d159e2c459))
     (pin "4" (uuid 1d6cfc3f-f644-4f15-aea8-30d84c678199))
     (pin "8" (uuid d74a0745-d5f8-4952-8971-1da425fd8ee2))
     (instances
@@ -2536,11 +2536,11 @@
     (pin "1" (uuid 555d0f5d-247d-4b18-b6e3-fbec8742a120))
     (pin "2" (uuid d1719c4b-82c2-46bd-aad1-e45a5dc076fb))
     (pin "3" (uuid ccf1525c-8ab3-48e0-aa3e-32a0a2d09f6b))
-    (pin "5" (uuid 7d7ccfea-f12c-480b-9f52-7cf06640656a))
-    (pin "6" (uuid 9448d660-7fa2-47a5-b847-c611aad34a3f))
-    (pin "7" (uuid a06833a6-f565-41ee-82ad-866968e113d7))
-    (pin "4" (uuid 7ae2752a-fe9b-4edc-9007-fbbb36cefca7))
-    (pin "8" (uuid 953103e8-9e6c-4586-b960-7b52677de146))
+    (pin "5" (uuid 7d7ccfea-f12c-480b-9f52-7cf06640656b))
+    (pin "6" (uuid 9448d660-7fa2-47a5-b847-c611aad34a40))
+    (pin "7" (uuid a06833a6-f565-41ee-82ad-866968e113d8))
+    (pin "4" (uuid 7ae2752a-fe9b-4edc-9007-fbbb36cefca8))
+    (pin "8" (uuid 953103e8-9e6c-4586-b960-7b52677de147))
     (instances
       (project "Intercat"
         (path "/03d88a85-11fd-47aa-954c-c318bb15294a/59340727-7477-481f-9a33-ca352ff8276a"
@@ -2897,14 +2897,14 @@
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl081.pdf" (at 96.52 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e554a335-cb2d-4684-b3b7-5fa96a6eea36))
-    (pin "2" (uuid ccc813c3-2440-4fd0-8593-4f293b563621))
-    (pin "3" (uuid e0b64069-ab12-47f4-86d6-b7662ff0fbae))
+    (pin "1" (uuid e554a335-cb2d-4684-b3b7-5fa96a6eea38))
+    (pin "2" (uuid ccc813c3-2440-4fd0-8593-4f293b563623))
+    (pin "3" (uuid e0b64069-ab12-47f4-86d6-b7662ff0fbb0))
     (pin "5" (uuid a871120a-903c-49ac-ab6d-dfb36b427a3b))
     (pin "6" (uuid 1960bd0a-393a-4cf3-8601-ec7b568cd215))
     (pin "7" (uuid cc500600-c38d-4914-8e3b-0d2354fb8180))
-    (pin "4" (uuid c039bf61-0618-40f3-967a-8d4b1ff2e2a6))
-    (pin "8" (uuid 36dedfcc-a7da-474c-a560-2c66c69bc9ab))
+    (pin "4" (uuid c039bf61-0618-40f3-967a-8d4b1ff2e2a8))
+    (pin "8" (uuid 36dedfcc-a7da-474c-a560-2c66c69bc9ad))
     (instances
       (project "Intercat"
         (path "/03d88a85-11fd-47aa-954c-c318bb15294a/59340727-7477-481f-9a33-ca352ff8276a"
