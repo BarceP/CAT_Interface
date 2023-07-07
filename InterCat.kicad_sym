@@ -6,7 +6,7 @@
     (property "Value" "MAX3250" (at -13.97 -16.51 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm" (at 3.81 0 0)
+    (property "Footprint" "Package_SO:SSOP-28_5.3x10.2mm_P0.65mm" (at 3.81 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX3250.pdf" (at 6.35 -2.54 0)

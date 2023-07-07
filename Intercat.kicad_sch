@@ -2327,6 +2327,9 @@
     (property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf" (at 101.6 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C524236" (at 96.52 163.83 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid faad5a37-7b6b-4d91-80a3-cf8f5e9a7e7f))
     (pin "2" (uuid 06290b55-f90f-4b41-ad6d-36ee77f353de))
     (pin "3" (uuid b10ecac0-b597-4319-b896-b29c2404c1b0))
@@ -2345,16 +2348,19 @@
   (symbol (lib_id "Device:R") (at 55.88 149.86 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0942f7ce-7011-4e1f-ac07-e53fa402f06c)
-    (property "Reference" "R?" (at 55.88 147.32 90)
+    (property "Reference" "R4" (at 55.88 147.32 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "5k1" (at 60.96 148.59 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 55.88 151.638 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 55.88 151.638 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 55.88 149.86 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "" (at 55.88 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid c2438fd3-7644-4b25-9029-e431b5b7884e))
@@ -2362,7 +2368,7 @@
     (instances
       (project "Intercat"
         (path "/03d88a85-11fd-47aa-954c-c318bb15294a"
-          (reference "R?") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -2371,7 +2377,7 @@
   (symbol (lib_id "power:GND") (at 130.81 34.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 09cf220a-c94d-4e2b-aa90-36a0fceb56e3)
-    (property "Reference" "#PWR019" (at 130.81 40.64 0)
+    (property "Reference" "#PWR015" (at 130.81 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 135.89 36.83 0)
@@ -2387,7 +2393,7 @@
     (instances
       (project "Intercat"
         (path "/03d88a85-11fd-47aa-954c-c318bb15294a"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
     )
@@ -2396,16 +2402,19 @@
   (symbol (lib_id "Device:R") (at 38.1 31.75 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 109d8553-4d6a-4487-92f4-cbb221078c1e)
-    (property "Reference" "R?" (at 39.37 30.48 0)
+    (property "Reference" "R2" (at 39.37 30.48 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "4k7" (at 39.37 33.02 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 39.878 31.75 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 39.878 31.75 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 38.1 31.75 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "" (at 38.1 31.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 24d3edd6-6c37-4382-9dc1-1b19ee1dcfc8))
@@ -2413,7 +2422,7 @@
     (instances
       (project "Intercat"
         (path "/03d88a85-11fd-47aa-954c-c318bb15294a"
-          (reference "R?") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -2422,16 +2431,19 @@
   (symbol (lib_id "Device:R") (at 193.04 139.7 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1205b79a-106f-48d1-ae15-5c2da0adb99f)
-    (property "Reference" "R?" (at 195.58 139.065 0)
+    (property "Reference" "R5" (at 195.58 139.065 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "R" (at 195.58 141.605 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 191.262 139.7 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 191.262 139.7 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 193.04 139.7 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "" (at 193.04 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 896b0893-2205-4de3-a59f-7d0c09a5fc56))
@@ -2439,7 +2451,7 @@
     (instances
       (project "Intercat"
         (path "/03d88a85-11fd-47aa-954c-c318bb15294a"
-          (reference "R?") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -2448,7 +2460,7 @@
   (symbol (lib_name "GND_1") (lib_id "power:GND") (at 74.93 149.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 15e5968b-c1d0-432a-a566-0d9a38efdb83)
-    (property "Reference" "#PWR04" (at 74.93 156.21 0)
+    (property "Reference" "#PWR011" (at 74.93 156.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 74.93 154.94 0)
@@ -2464,7 +2476,7 @@
     (instances
       (project "Intercat"
         (path "/03d88a85-11fd-47aa-954c-c318bb15294a"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
     )
@@ -2473,16 +2485,19 @@
   (symbol (lib_id "Device:C_Small") (at 53.34 30.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 16e30e5f-971b-4be4-b78f-45fe8d0f9fdf)
-    (property "Reference" "C?" (at 48.26 29.21 0)
+    (property "Reference" "C1" (at 48.26 29.21 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 45.72 31.75 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 53.34 30.48 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 53.34 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 53.34 30.48 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "" (at 53.34 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid a2555556-1757-476d-ba44-a89433dd9a2d))
@@ -2490,7 +2505,7 @@
     (instances
       (project "Intercat"
         (path "/03d88a85-11fd-47aa-954c-c318bb15294a"
-          (reference "C?") (unit 1)
+          (reference "C1") (unit 1)
         )
       )
     )
@@ -2499,7 +2514,7 @@
   (symbol (lib_name "GND_3") (lib_id "power:GND") (at 193.04 151.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1ce89d48-a3d2-4a28-bc2c-94c5e8472d6c)
-    (property "Reference" "#PWR065" (at 193.04 157.48 0)
+    (property "Reference" "#PWR021" (at 193.04 157.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 193.04 156.21 0)
@@ -2515,7 +2530,7 @@
     (instances
       (project "Intercat"
         (path "/03d88a85-11fd-47aa-954c-c318bb15294a"
-          (reference "#PWR065") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
     )
@@ -2524,7 +2539,7 @@
   (symbol (lib_id "power:GND") (at 62.23 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 26addf97-7009-4916-8799-3feb3f0b8437)
-    (property "Reference" "#PWR08" (at 62.23 99.06 0)
+    (property "Reference" "#PWR07" (at 62.23 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 60.96 95.25 0)
@@ -2540,7 +2555,7 @@
     (instances
       (project "Intercat"
         (path "/03d88a85-11fd-47aa-954c-c318bb15294a"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
     )
@@ -2549,7 +2564,7 @@
   (symbol (lib_id "power:VBUS") (at 74.93 144.78 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 29346cc2-c136-4811-b3cb-0ddc24e70294)
-    (property "Reference" "#PWR05" (at 74.93 148.59 0)
+    (property "Reference" "#PWR010" (at 74.93 148.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VBUS" (at 74.93 140.97 0)
@@ -2565,7 +2580,7 @@
     (instances
       (project "Intercat"
         (path "/03d88a85-11fd-47aa-954c-c318bb15294a"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
     )
@@ -2574,16 +2589,19 @@
   (symbol (lib_id "Device:LED") (at 201.93 147.32 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 29aa31db-ba13-4714-be83-3678ccb9dfa1)
-    (property "Reference" "D?" (at 205.74 148.2725 90)
+    (property "Reference" "D2" (at 205.74 148.2725 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "LED" (at 205.74 150.8125 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 201.93 147.32 0)
+    (property "Footprint" "LED_SMD:LED_0603_1608Metric" (at 201.93 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 201.93 147.32 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "" (at 201.93 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 6921587f-9bd9-4e7e-891c-619a3cb25195))
@@ -2591,7 +2609,7 @@
     (instances
       (project "Intercat"
         (path "/03d88a85-11fd-47aa-954c-c318bb15294a"
-          (reference "D?") (unit 1)
+          (reference "D2") (unit 1)
         )
       )
     )
@@ -2600,7 +2618,7 @@
   (symbol (lib_id "power:GND") (at 140.97 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3009ec3b-bd2b-4916-9d1b-c80f7537c99f)
-    (property "Reference" "#PWR020" (at 140.97 91.44 0)
+    (property "Reference" "#PWR018" (at 140.97 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 146.05 87.63 0)
@@ -2616,7 +2634,7 @@
     (instances
       (project "Intercat"
         (path "/03d88a85-11fd-47aa-954c-c318bb15294a"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
       )
     )
@@ -2625,7 +2643,7 @@
   (symbol (lib_id "Connector:USB_C_Plug_USB2.0") (at 35.56 160.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 31a67758-bbb4-4e87-9887-0fd058e08392)
-    (property "Reference" "P?" (at 35.56 137.16 0)
+    (property "Reference" "P1" (at 35.56 137.16 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "USB_C_Plug_USB2.0" (at 35.56 139.7 0)
@@ -2635,6 +2653,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" (at 39.37 160.02 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "" (at 35.56 160.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "A1" (uuid d094a4b8-0876-42a4-af18-c6e644dd1dc4))
@@ -2653,7 +2674,7 @@
     (instances
       (project "Intercat"
         (path "/03d88a85-11fd-47aa-954c-c318bb15294a"
-          (reference "P?") (unit 1)
+          (reference "P1") (unit 1)
         )
       )
     )
@@ -2662,7 +2683,7 @@
   (symbol (lib_name "GND_1") (lib_id "power:GND") (at 62.23 149.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 32e84c01-a561-4920-b1fc-9968b9ffed9b)
-    (property "Reference" "#PWR013" (at 62.23 156.21 0)
+    (property "Reference" "#PWR08" (at 62.23 156.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 62.23 154.94 0)
@@ -2678,7 +2699,7 @@
     (instances
       (project "Intercat"
         (path "/03d88a85-11fd-47aa-954c-c318bb15294a"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -2687,16 +2708,19 @@
   (symbol (lib_id "Device:C_Small") (at 74.93 147.32 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 36c490b9-d4a3-4d70-9fec-9f26421def35)
-    (property "Reference" "C?" (at 77.47 144.78 0)
+    (property "Reference" "C3" (at 77.47 144.78 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1uF" (at 78.74 149.86 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 74.93 147.32 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 74.93 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 74.93 147.32 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "" (at 74.93 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid c9aaddeb-fab8-4ac2-a250-b441c241463e))
@@ -2704,7 +2728,7 @@
     (instances
       (project "Intercat"
         (path "/03d88a85-11fd-47aa-954c-c318bb15294a"
-          (reference "C?") (unit 1)
+          (reference "C3") (unit 1)
         )
       )
     )
@@ -2738,7 +2762,7 @@
   (symbol (lib_id "power:VBUS") (at 38.1 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 38f295d2-d9fc-4594-ae15-0adcee684c4d)
-    (property "Reference" "#PWR01" (at 38.1 55.88 0)
+    (property "Reference" "#PWR04" (at 38.1 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VBUS" (at 38.1 48.26 0)
@@ -2754,7 +2778,7 @@
     (instances
       (project "Intercat"
         (path "/03d88a85-11fd-47aa-954c-c318bb15294a"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
     )
@@ -2763,16 +2787,19 @@
   (symbol (lib_id "Device:C_Small") (at 72.39 30.48 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3b3de1e9-3131-4b59-a658-8ed76d337cc7)
-    (property "Reference" "C?" (at 71.12 27.94 0)
+    (property "Reference" "C2" (at 71.12 27.94 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1uF" (at 69.85 33.02 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 72.39 30.48 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 72.39 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 72.39 30.48 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "" (at 72.39 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 2da68d4d-4477-4758-86db-b13549d0514e))
@@ -2780,7 +2807,7 @@
     (instances
       (project "Intercat"
         (path "/03d88a85-11fd-47aa-954c-c318bb15294a"
-          (reference "C?") (unit 1)
+          (reference "C2") (unit 1)
         )
       )
     )
@@ -2789,7 +2816,7 @@
   (symbol (lib_id "power:VBUS") (at 59.69 26.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 41d63aca-dcc0-40bc-ae5c-5fda7141ed86)
-    (property "Reference" "#PWR02" (at 59.69 30.48 0)
+    (property "Reference" "#PWR06" (at 59.69 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VBUS" (at 59.69 22.86 0)
@@ -2805,7 +2832,7 @@
     (instances
       (project "Intercat"
         (path "/03d88a85-11fd-47aa-954c-c318bb15294a"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
     )
@@ -2814,7 +2841,7 @@
   (symbol (lib_id "Connector:AudioJack2_Ground") (at 252.73 55.88 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 46bc35b5-686c-415d-83de-90001f156f6c)
-    (property "Reference" "J?" (at 259.08 53.34 0)
+    (property "Reference" "J2" (at 259.08 53.34 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "AudioJack2_Ground" (at 266.7 55.88 0)
@@ -2826,13 +2853,16 @@
     (property "Datasheet" "~" (at 252.73 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "" (at 252.73 55.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "G" (uuid 27e2f799-bff2-45a8-837f-7377a335223d))
     (pin "S" (uuid 97022ae5-4702-4022-a47b-6a6d9e76c60f))
     (pin "T" (uuid 444dfce6-bb29-4d63-b205-2ccd08b51d9d))
     (instances
       (project "Intercat"
         (path "/03d88a85-11fd-47aa-954c-c318bb15294a"
-          (reference "J?") (unit 1)
+          (reference "J2") (unit 1)
         )
       )
     )
@@ -2841,7 +2871,7 @@
   (symbol (lib_id "Connector:AudioJack2_Ground") (at 252.73 43.18 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4ba8c3e5-8912-408f-9eac-3476ddbe5021)
-    (property "Reference" "J?" (at 257.81 40.64 0)
+    (property "Reference" "J1" (at 257.81 40.64 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "AudioJack2_Ground" (at 257.81 43.18 0)
@@ -2853,13 +2883,16 @@
     (property "Datasheet" "~" (at 252.73 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "" (at 252.73 43.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "G" (uuid 00546621-6af9-4d39-9b9c-ab8334d11d89))
     (pin "S" (uuid c8e0be89-b357-4ee0-9958-e4b4b81600c3))
     (pin "T" (uuid 56506276-ce6d-4788-8612-87231a802201))
     (instances
       (project "Intercat"
         (path "/03d88a85-11fd-47aa-954c-c318bb15294a"
-          (reference "J?") (unit 1)
+          (reference "J1") (unit 1)
         )
       )
     )
@@ -2868,16 +2901,19 @@
   (symbol (lib_id "Device:C_Small") (at 157.48 29.21 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4cefc6da-e84a-4e0c-9ee0-151dc84cd396)
-    (property "Reference" "C?" (at 154.94 27.94 0)
+    (property "Reference" "C8" (at 154.94 27.94 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1uF" (at 154.94 31.75 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 157.48 29.21 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 157.48 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 157.48 29.21 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "" (at 157.48 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid da8fe278-e51a-45a4-a85f-dc6bf542b324))
@@ -2885,7 +2921,7 @@
     (instances
       (project "Intercat"
         (path "/03d88a85-11fd-47aa-954c-c318bb15294a"
-          (reference "C?") (unit 1)
+          (reference "C8") (unit 1)
         )
       )
     )
@@ -2894,16 +2930,19 @@
   (symbol (lib_id "Device:C_Small") (at 130.81 31.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 55c3c837-ca21-4bf0-b6c3-f37bb800bdc1)
-    (property "Reference" "C?" (at 125.73 30.48 0)
+    (property "Reference" "C6" (at 125.73 30.48 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 124.46 34.29 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 130.81 31.75 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 130.81 31.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 130.81 31.75 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "" (at 130.81 31.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 1322e973-464e-4e2b-8eff-98033493c820))
@@ -2911,7 +2950,7 @@
     (instances
       (project "Intercat"
         (path "/03d88a85-11fd-47aa-954c-c318bb15294a"
-          (reference "C?") (unit 1)
+          (reference "C6") (unit 1)
         )
       )
     )
@@ -2920,7 +2959,7 @@
   (symbol (lib_id "power:VBUS") (at 96.52 153.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5828db94-3520-46d2-98c7-902516417a3f)
-    (property "Reference" "#PWR010" (at 96.52 157.48 0)
+    (property "Reference" "#PWR013" (at 96.52 157.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VBUS" (at 96.52 149.86 0)
@@ -2936,7 +2975,7 @@
     (instances
       (project "Intercat"
         (path "/03d88a85-11fd-47aa-954c-c318bb15294a"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
     )
@@ -2945,16 +2984,19 @@
   (symbol (lib_id "Device:R") (at 210.82 139.7 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5dcd197a-9ad9-435e-918f-0c638663d16d)
-    (property "Reference" "R?" (at 213.36 139.065 0)
+    (property "Reference" "R7" (at 213.36 139.065 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "R" (at 213.36 141.605 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 209.042 139.7 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 209.042 139.7 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 210.82 139.7 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "" (at 210.82 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 04da8f8a-88a7-422b-b5b5-741fb15efb07))
@@ -2962,7 +3004,7 @@
     (instances
       (project "Intercat"
         (path "/03d88a85-11fd-47aa-954c-c318bb15294a"
-          (reference "R?") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
     )
@@ -2971,16 +3013,19 @@
   (symbol (lib_id "Device:R") (at 55.88 144.78 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5e138e51-beb9-4af5-8da8-69ec35863c7b)
-    (property "Reference" "R?" (at 55.88 142.24 90)
+    (property "Reference" "R3" (at 55.88 142.24 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "R" (at 59.69 143.51 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 55.88 146.558 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 55.88 146.558 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 55.88 144.78 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "" (at 55.88 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 00984cfe-7508-4c9f-96ca-9bc32564f850))
@@ -2988,7 +3033,7 @@
     (instances
       (project "Intercat"
         (path "/03d88a85-11fd-47aa-954c-c318bb15294a"
-          (reference "R?") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -3007,6 +3052,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.silabs.com/documents/public/data-sheets/cp2615-datasheet.pdf" (at 46.99 35.56 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C1521596" (at 62.23 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid adc37ec2-ca57-4366-acbe-9be500f0b9e7))
@@ -3054,7 +3102,7 @@
   (symbol (lib_name "GND_2") (lib_id "power:GND") (at 252.73 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 60d7876a-ecb2-48f2-b708-3d1caad07147)
-    (property "Reference" "#PWR07" (at 252.73 54.61 0)
+    (property "Reference" "#PWR027" (at 252.73 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "AGND" (at 256.54 48.26 0)
@@ -3070,7 +3118,7 @@
     (instances
       (project "Intercat"
         (path "/03d88a85-11fd-47aa-954c-c318bb15294a"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR027") (unit 1)
         )
       )
     )
@@ -3079,7 +3127,7 @@
   (symbol (lib_id "power:GND") (at 53.34 34.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 66855330-1bcc-4c94-9e5a-22d810cbdd23)
-    (property "Reference" "#PWR?" (at 53.34 40.64 0)
+    (property "Reference" "#PWR05" (at 53.34 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 50.8 36.83 0)
@@ -3095,7 +3143,7 @@
     (instances
       (project "Intercat"
         (path "/03d88a85-11fd-47aa-954c-c318bb15294a"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -3104,7 +3152,7 @@
   (symbol (lib_id "power:GND") (at 147.32 34.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 692f853a-7a77-4cb7-8ed2-df3a36d162cd)
-    (property "Reference" "#PWR017" (at 147.32 40.64 0)
+    (property "Reference" "#PWR019" (at 147.32 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 152.4 36.83 0)
@@ -3120,7 +3168,7 @@
     (instances
       (project "Intercat"
         (path "/03d88a85-11fd-47aa-954c-c318bb15294a"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
       )
     )
@@ -3154,7 +3202,7 @@
   (symbol (lib_id "power:VBUS") (at 246.38 127 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6ca7a9ff-4b60-4d4c-b1d0-48081e5e7295)
-    (property "Reference" "#PWR045" (at 246.38 130.81 0)
+    (property "Reference" "#PWR025" (at 246.38 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VEXT" (at 246.38 123.19 0)
@@ -3170,7 +3218,7 @@
     (instances
       (project "Intercat"
         (path "/03d88a85-11fd-47aa-954c-c318bb15294a"
-          (reference "#PWR045") (unit 1)
+          (reference "#PWR025") (unit 1)
         )
       )
     )
@@ -3179,7 +3227,7 @@
   (symbol (lib_id "power:VBUS") (at 140.97 26.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6d2b6549-545e-4616-b387-594d018ca715)
-    (property "Reference" "#PWR015" (at 140.97 30.48 0)
+    (property "Reference" "#PWR017" (at 140.97 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VBUS" (at 140.97 22.86 0)
@@ -3195,7 +3243,7 @@
     (instances
       (project "Intercat"
         (path "/03d88a85-11fd-47aa-954c-c318bb15294a"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
       )
     )
@@ -3204,7 +3252,7 @@
   (symbol (lib_id "power:GND") (at 77.47 34.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7067f26c-fb83-4d55-a065-064e7dab40dc)
-    (property "Reference" "#PWR06" (at 77.47 40.64 0)
+    (property "Reference" "#PWR012" (at 77.47 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 82.55 36.83 0)
@@ -3220,7 +3268,7 @@
     (instances
       (project "Intercat"
         (path "/03d88a85-11fd-47aa-954c-c318bb15294a"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
     )
@@ -3229,16 +3277,19 @@
   (symbol (lib_id "Device:C_Small") (at 77.47 30.48 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7362b674-1bd8-46b6-a7c2-add9830b1bbe)
-    (property "Reference" "C?" (at 76.2 27.94 0)
+    (property "Reference" "C4" (at 76.2 27.94 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1uF" (at 74.93 33.02 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 77.47 30.48 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 77.47 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 77.47 30.48 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "" (at 77.47 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 272a047a-c470-49b3-9144-9f9e8902fa2c))
@@ -3246,7 +3297,7 @@
     (instances
       (project "Intercat"
         (path "/03d88a85-11fd-47aa-954c-c318bb15294a"
-          (reference "C?") (unit 1)
+          (reference "C4") (unit 1)
         )
       )
     )
@@ -3280,7 +3331,7 @@
   (symbol (lib_name "GND_1") (lib_id "power:GND") (at 20.32 49.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 86fd07d3-a7e9-4b6d-8ff7-4889c65ea71a)
-    (property "Reference" "#PWR012" (at 20.32 55.88 0)
+    (property "Reference" "#PWR01" (at 20.32 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 20.32 54.61 0)
@@ -3296,7 +3347,7 @@
     (instances
       (project "Intercat"
         (path "/03d88a85-11fd-47aa-954c-c318bb15294a"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR01") (unit 1)
         )
       )
     )
@@ -3305,7 +3356,7 @@
   (symbol (lib_id "power:VDD") (at 138.43 29.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8d3436b2-7a0d-454c-9a7b-2f8233cf1d52)
-    (property "Reference" "#PWR018" (at 138.43 33.02 0)
+    (property "Reference" "#PWR016" (at 138.43 33.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VDD" (at 138.43 25.4 0)
@@ -3321,7 +3372,7 @@
     (instances
       (project "Intercat"
         (path "/03d88a85-11fd-47aa-954c-c318bb15294a"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
       )
     )
@@ -3330,7 +3381,7 @@
   (symbol (lib_id "Connector:DE9_Receptacle") (at 261.62 139.7 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8ef10c7a-2332-4c8d-a1c0-d9d8af80217b)
-    (property "Reference" "J?" (at 266.7 139.065 0)
+    (property "Reference" "J3" (at 266.7 139.065 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "DE9_Receptacle" (at 266.7 141.605 0)
@@ -3340,6 +3391,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" " ~" (at 261.62 139.7 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "" (at 261.62 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 7d36a46d-1284-4093-935e-2fae97ad0e97))
@@ -3354,7 +3408,7 @@
     (instances
       (project "Intercat"
         (path "/03d88a85-11fd-47aa-954c-c318bb15294a"
-          (reference "J?") (unit 1)
+          (reference "J3") (unit 1)
         )
       )
     )
@@ -3363,7 +3417,7 @@
   (symbol (lib_id "InterCat:PCM3060") (at 140.97 59.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 94c6c934-5956-4c9b-bd28-20fa11c5c483)
-    (property "Reference" "U?" (at 149.86 82.55 0)
+    (property "Reference" "U3" (at 149.86 82.55 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "PCM3060" (at 127 82.55 0)
@@ -3373,6 +3427,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.ti.com/lit/gpn/pcm3060" (at 140.97 58.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "" (at 140.97 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 953e2b7b-4de2-4182-885a-33c2bfebffa5))
@@ -3406,7 +3463,7 @@
     (instances
       (project "Intercat"
         (path "/03d88a85-11fd-47aa-954c-c318bb15294a"
-          (reference "U?") (unit 1)
+          (reference "U3") (unit 1)
         )
       )
     )
@@ -3452,6 +3509,9 @@
     (property "Datasheet" "~" (at 25.4 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "" (at 25.4 45.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 700bcf70-04cc-45a4-89c2-f21e0dff12e4))
     (pin "2" (uuid 5c14d284-30d9-4c42-b471-2a00a64a00b4))
     (instances
@@ -3466,7 +3526,7 @@
   (symbol (lib_id "power:GND") (at 240.03 130.81 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a77e547b-902f-463f-b1a0-f9ce97c8c69e)
-    (property "Reference" "#PWR037" (at 240.03 137.16 0)
+    (property "Reference" "#PWR024" (at 240.03 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "AGND" (at 240.03 130.81 0)
@@ -3482,7 +3542,7 @@
     (instances
       (project "Intercat"
         (path "/03d88a85-11fd-47aa-954c-c318bb15294a"
-          (reference "#PWR037") (unit 1)
+          (reference "#PWR024") (unit 1)
         )
       )
     )
@@ -3491,16 +3551,19 @@
   (symbol (lib_id "Device:R") (at 201.93 139.7 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a933e92d-2f83-434f-83b6-0db27d7b52fe)
-    (property "Reference" "R?" (at 204.47 139.065 0)
+    (property "Reference" "R6" (at 204.47 139.065 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "R" (at 204.47 141.605 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 200.152 139.7 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 200.152 139.7 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 201.93 139.7 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "" (at 201.93 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 7b216c1c-17ed-42d2-b9f0-f8b89cc5af79))
@@ -3508,7 +3571,7 @@
     (instances
       (project "Intercat"
         (path "/03d88a85-11fd-47aa-954c-c318bb15294a"
-          (reference "R?") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -3517,16 +3580,19 @@
   (symbol (lib_id "Device:LED") (at 210.82 147.32 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid aa43d24c-9f0f-4be1-9f49-0b4763746fa2)
-    (property "Reference" "D?" (at 214.63 148.2725 90)
+    (property "Reference" "D3" (at 214.63 148.2725 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "LED" (at 214.63 150.8125 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 210.82 147.32 0)
+    (property "Footprint" "LED_SMD:LED_0603_1608Metric" (at 210.82 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 210.82 147.32 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "" (at 210.82 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid b0f3c60c-733c-468e-8e4d-e5ebb69b9021))
@@ -3534,7 +3600,7 @@
     (instances
       (project "Intercat"
         (path "/03d88a85-11fd-47aa-954c-c318bb15294a"
-          (reference "D?") (unit 1)
+          (reference "D3") (unit 1)
         )
       )
     )
@@ -3543,16 +3609,19 @@
   (symbol (lib_id "Device:R") (at 35.56 31.75 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid be207e6f-ae72-4317-872e-b13cb4f86c4a)
-    (property "Reference" "R?" (at 30.48 30.48 0)
+    (property "Reference" "R1" (at 30.48 30.48 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "4k7" (at 30.48 33.02 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 37.338 31.75 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 37.338 31.75 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 35.56 31.75 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "" (at 35.56 31.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 3719097c-57d6-4dfd-9dd3-ce1126f5bdd3))
@@ -3560,7 +3629,7 @@
     (instances
       (project "Intercat"
         (path "/03d88a85-11fd-47aa-954c-c318bb15294a"
-          (reference "R?") (unit 1)
+          (reference "R1") (unit 1)
         )
       )
     )
@@ -3569,7 +3638,7 @@
   (symbol (lib_id "power:GND") (at 161.29 31.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c7611141-b9c3-4afe-978a-9f252eaaa5f6)
-    (property "Reference" "#PWR016" (at 161.29 38.1 0)
+    (property "Reference" "#PWR020" (at 161.29 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 166.37 34.29 0)
@@ -3585,7 +3654,7 @@
     (instances
       (project "Intercat"
         (path "/03d88a85-11fd-47aa-954c-c318bb15294a"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
       )
     )
@@ -3594,16 +3663,19 @@
   (symbol (lib_id "Device:C_Small") (at 161.29 29.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dd0e5d86-9a07-4286-9bc9-ccb8aa42d65a)
-    (property "Reference" "C?" (at 162.56 27.94 0)
+    (property "Reference" "C9" (at 162.56 27.94 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 162.56 31.75 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 161.29 29.21 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 161.29 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 161.29 29.21 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "" (at 161.29 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid e7c21312-05fc-4c47-acae-1e6313879113))
@@ -3611,7 +3683,7 @@
     (instances
       (project "Intercat"
         (path "/03d88a85-11fd-47aa-954c-c318bb15294a"
-          (reference "C?") (unit 1)
+          (reference "C9") (unit 1)
         )
       )
     )
@@ -3620,16 +3692,19 @@
   (symbol (lib_id "Device:LED") (at 193.04 147.32 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid de81f4f3-a41f-4bb8-9101-8cafe6666547)
-    (property "Reference" "D?" (at 196.85 148.2725 90)
+    (property "Reference" "D1" (at 196.85 148.2725 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "LED" (at 196.85 150.8125 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 193.04 147.32 0)
+    (property "Footprint" "LED_SMD:LED_0603_1608Metric" (at 193.04 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 193.04 147.32 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "" (at 193.04 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 424a7882-9d6b-4350-99d9-a4445f0f3816))
@@ -3637,7 +3712,7 @@
     (instances
       (project "Intercat"
         (path "/03d88a85-11fd-47aa-954c-c318bb15294a"
-          (reference "D?") (unit 1)
+          (reference "D1") (unit 1)
         )
       )
     )
@@ -3646,16 +3721,19 @@
   (symbol (lib_id "Device:C_Small") (at 82.55 30.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e79a7072-9151-4091-9ccf-8d7e7b33ce2f)
-    (property "Reference" "C?" (at 82.55 27.94 0)
+    (property "Reference" "C5" (at 82.55 27.94 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 82.55 33.02 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 82.55 30.48 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 82.55 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 82.55 30.48 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "" (at 82.55 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid e26d5b0f-44f8-419d-9a34-4e2c28898c28))
@@ -3663,7 +3741,7 @@
     (instances
       (project "Intercat"
         (path "/03d88a85-11fd-47aa-954c-c318bb15294a"
-          (reference "C?") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
     )
@@ -3672,7 +3750,7 @@
   (symbol (lib_id "power:GND") (at 246.38 151.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ed4ea356-d9e3-455e-a4c0-f3e6e2786e3a)
-    (property "Reference" "#PWR011" (at 246.38 157.48 0)
+    (property "Reference" "#PWR026" (at 246.38 157.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "AGND" (at 252.73 153.67 0)
@@ -3688,7 +3766,7 @@
     (instances
       (project "Intercat"
         (path "/03d88a85-11fd-47aa-954c-c318bb15294a"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR026") (unit 1)
         )
       )
     )
@@ -3697,7 +3775,7 @@
   (symbol (lib_name "GND_3") (lib_id "power:GND") (at 201.93 151.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f00b2004-050d-4a4e-a97b-3f6a310f8974)
-    (property "Reference" "#PWR066" (at 201.93 157.48 0)
+    (property "Reference" "#PWR022" (at 201.93 157.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 201.93 156.21 0)
@@ -3713,7 +3791,7 @@
     (instances
       (project "Intercat"
         (path "/03d88a85-11fd-47aa-954c-c318bb15294a"
-          (reference "#PWR066") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
     )
@@ -3722,7 +3800,7 @@
   (symbol (lib_name "GND_3") (lib_id "power:GND") (at 210.82 151.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f013170a-2fa8-477b-81fa-ee64aba41f49)
-    (property "Reference" "#PWR067" (at 210.82 157.48 0)
+    (property "Reference" "#PWR023" (at 210.82 157.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 210.82 156.21 0)
@@ -3738,7 +3816,7 @@
     (instances
       (project "Intercat"
         (path "/03d88a85-11fd-47aa-954c-c318bb15294a"
-          (reference "#PWR067") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
     )
@@ -3747,7 +3825,7 @@
   (symbol (lib_id "power:GND") (at 35.56 182.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f26f695d-9029-4a46-ba04-f49561a512e6)
-    (property "Reference" "#PWR?" (at 35.56 189.23 0)
+    (property "Reference" "#PWR02" (at 35.56 189.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 35.56 187.96 0)
@@ -3763,7 +3841,7 @@
     (instances
       (project "Intercat"
         (path "/03d88a85-11fd-47aa-954c-c318bb15294a"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
       )
     )
@@ -3772,16 +3850,19 @@
   (symbol (lib_id "Device:C_Small") (at 147.32 31.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f4c545d5-8a95-4da9-b9f7-d4c1b50cbb7e)
-    (property "Reference" "C?" (at 148.59 30.48 0)
+    (property "Reference" "C7" (at 148.59 30.48 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 147.32 34.29 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 147.32 31.75 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 147.32 31.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 147.32 31.75 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "" (at 147.32 31.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid d34790b5-e8f5-43cc-b46d-20ec30daadb7))
@@ -3789,7 +3870,7 @@
     (instances
       (project "Intercat"
         (path "/03d88a85-11fd-47aa-954c-c318bb15294a"
-          (reference "C?") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
     )
