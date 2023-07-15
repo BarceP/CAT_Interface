@@ -3179,14 +3179,14 @@
     (property "LCSC" "" (at 243.84 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e554a335-cb2d-4684-b3b7-5fa96a6eea36))
-    (pin "2" (uuid ccc813c3-2440-4fd0-8593-4f293b563621))
-    (pin "3" (uuid e0b64069-ab12-47f4-86d6-b7662ff0fbae))
+    (pin "1" (uuid e554a335-cb2d-4684-b3b7-5fa96a6eea37))
+    (pin "2" (uuid ccc813c3-2440-4fd0-8593-4f293b563622))
+    (pin "3" (uuid e0b64069-ab12-47f4-86d6-b7662ff0fbaf))
     (pin "5" (uuid e3897f8e-c103-4a05-ba83-db76df279664))
     (pin "6" (uuid 6aa9856b-af55-41a1-af1a-93a450174ad1))
     (pin "7" (uuid dcfff6b5-8929-459b-8c87-38c363e39e55))
-    (pin "4" (uuid c039bf61-0618-40f3-967a-8d4b1ff2e2a6))
-    (pin "8" (uuid 36dedfcc-a7da-474c-a560-2c66c69bc9ab))
+    (pin "4" (uuid c039bf61-0618-40f3-967a-8d4b1ff2e2a7))
+    (pin "8" (uuid 36dedfcc-a7da-474c-a560-2c66c69bc9ac))
     (instances
       (project "Intercat"
         (path "/03d88a85-11fd-47aa-954c-c318bb15294a/59340727-7477-481f-9a33-ca352ff8276a"
