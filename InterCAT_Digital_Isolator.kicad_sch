@@ -610,7 +610,6 @@
     )
   )
 
-
   (junction (at 226.06 149.86) (diameter 0) (color 0 0 0 0)
     (uuid 3d86c486-a0b1-40c9-8d69-ccb9580c731f)
   )
@@ -638,7 +637,7 @@
     (stroke (width 0) (type default))
     (uuid 016c296e-4c1a-46c0-a7e8-c92a12dd4276)
   )
-  (wire (pts (xy 78.74 125.73) (xy 88.9 125.73))
+  (wire (pts (xy 78.74 125.73) (xy 85.09 125.73))
     (stroke (width 0) (type default))
     (uuid 06272a07-b748-4b2f-aa6c-fdcb60a98a01)
   )
@@ -989,7 +988,7 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid a29a8f54-5948-4712-8fbf-116f57a05028)
   )
-  (hierarchical_label "RTS_ISO" (shape output) (at 88.9 125.73 0) (fields_autoplaced)
+  (hierarchical_label "RTS_ISO" (shape output) (at 85.09 125.73 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid a947331b-3315-4e1f-aa38-ef92562ac9ca)
   )
