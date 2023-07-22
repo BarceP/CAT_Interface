@@ -2075,7 +2075,7 @@
     (property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX3250.pdf" (at 153.67 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "" (at 152.4 62.23 0)
+    (property "LCSC" "C2671045" (at 152.4 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Note" "" (at 152.4 62.23 0)
