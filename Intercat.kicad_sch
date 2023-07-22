@@ -2425,7 +2425,7 @@
     (property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf" (at 101.6 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "C524236" (at 96.52 163.83 0)
+    (property "LCSC" "C5261088" (at 96.52 163.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Note" "" (at 96.52 163.83 0)
