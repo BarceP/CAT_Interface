@@ -79,4 +79,9 @@
   (pad "6" thru_hole circle (at -1.27 6.35) (size 1.6 1.6) (drill 0.85) (layers "*.Cu" "*.Mask") (tstamp bdde88f4-524a-4908-9302-dc0531a65829))
   (pad "7" thru_hole circle (at 1.27 6.35) (size 1.6 1.6) (drill 0.85) (layers "*.Cu" "*.Mask") (tstamp f527408e-7c1d-4cbd-bc97-b83453df91a1))
   (pad "8" thru_hole circle (at 3.81 6.35) (size 1.6 1.6) (drill 0.85) (layers "*.Cu" "*.Mask") (tstamp 748673db-affc-46fc-977d-4a9a5bff3ee4))
+  (model "${KIPRJMOD}/3D/Bourns/Body_sp.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
