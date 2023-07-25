@@ -6,9 +6,10 @@
 
   (title_block
     (title "CAT_Interface")
-    (date "2023-06-17")
-    (rev "00")
+    (date "2023-07-25")
+    (rev "01")
     (company "ZX_Group")
+    (comment 1 "made with <3 and KiCAD")
   )
 
   (lib_symbols
