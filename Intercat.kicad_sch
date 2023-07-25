@@ -3793,7 +3793,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 172.72 76.2 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid aeead59e-b2dc-4c1d-9881-567b27cded4f)
-    (property "Reference" "TP?" (at 166.37 76.2 90)
+    (property "Reference" "TP9" (at 166.37 76.2 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TestPoint" (at 169.418 73.66 90)
@@ -3812,7 +3812,7 @@
     (instances
       (project "Intercat"
         (path "/03d88a85-11fd-47aa-954c-c318bb15294a"
-          (reference "TP?") (unit 1)
+          (reference "TP9") (unit 1)
         )
       )
     )
