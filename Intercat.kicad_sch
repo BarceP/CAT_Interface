@@ -5384,8 +5384,16 @@
 		(uuid "37ca6cdd-096f-4bf4-9c22-2bae27af27c5")
 	)
 	(no_connect
+		(at 161.29 66.04)
+		(uuid "7cb20c27-afda-4330-a000-93e4c68d2ae3")
+	)
+	(no_connect
 		(at 57.15 168.91)
 		(uuid "b70c46de-8970-40c8-b9a5-5a253813bc89")
+	)
+	(no_connect
+		(at 161.29 68.58)
+		(uuid "f95dbca1-7b74-4db0-94eb-c56d6cb701e2")
 	)
 	(wire
 		(pts
@@ -13285,7 +13293,7 @@
 				(justify left)
 			)
 		)
-		(pin "Rin_F" output
+		(pin "In" output
 			(at 236.22 40.64 180)
 			(uuid "c4112120-749b-4b4e-8550-f7000a740e72")
 			(effects
@@ -13295,7 +13303,7 @@
 				(justify left)
 			)
 		)
-		(pin "Rin" input
+		(pin "In_ISO" input
 			(at 257.81 40.64 0)
 			(uuid "feb421bd-1e45-4960-ae9d-26e6148e2a99")
 			(effects
@@ -13305,7 +13313,7 @@
 				(justify right)
 			)
 		)
-		(pin "Rout" input
+		(pin "Out" input
 			(at 236.22 27.94 180)
 			(uuid "e3532216-a10c-4e8a-bd14-4b621f9264a6")
 			(effects
@@ -13315,7 +13323,7 @@
 				(justify left)
 			)
 		)
-		(pin "Rout_F" output
+		(pin "Out_ISO" output
 			(at 257.81 27.94 0)
 			(uuid "4f93baba-95f2-408c-aa59-e95b63ca93e6")
 			(effects

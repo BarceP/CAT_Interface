@@ -13,3 +13,11 @@ Version 2.0:
 - Still in development
 
 Open Hardware (CERN OHW Licence)
+
+## TODO
+
+[] Connettore Prog.
+[] Bypass Trafo
+[] Opt aggiungere il opto
+[] Silkscreen (add Group)
+[] Zenerino +R serie su TX
