@@ -16,8 +16,10 @@ Open Hardware (CERN OHW Licence)
 
 ## TODO
 
-[] Connettore Prog.
-[] Bypass Trafo
-[] Opt aggiungere il opto
-[] Silkscreen (add Group)
-[] Zenerino +R serie su TX
+- [X] Connettore Prog.
+- [X] Bypass Trafo
+- [X] Opt aggiungere extra opto
+- [X] Silkscreen (add Group)
+- [X] Zenerino + R serie su TX
+- [X] Togliere RS232
+- [X] Verificare BOOT0

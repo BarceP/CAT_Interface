@@ -1952,6 +1952,18 @@
 		)
 		(uuid 7f3d58f5-a41e-479d-b1ac-f51f4235e08d)
 	)
+	(rectangle
+		(start 25.4 95.25)
+		(end 101.6 162.56)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid adc97782-c3ad-4266-8bea-a173011bc289)
+	)
 	(text "Power and REF"
 		(exclude_from_sim no)
 		(at 33.782 92.202 0)
@@ -2047,6 +2059,16 @@
 			(justify left bottom)
 		)
 		(uuid "fabfedeb-76df-43b1-96e0-07aa6b74b725")
+	)
+	(text "ISO BYPASS"
+		(exclude_from_sim no)
+		(at 33.782 161.036 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fb13f2e5-cfcb-4475-b283-83773a45e7e2")
 	)
 	(text "Volume ADJ\nGain 0-2"
 		(exclude_from_sim no)
