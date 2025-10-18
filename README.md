@@ -3,7 +3,6 @@ Radio control and audio bridge.
 
 - Isolated digital/audio Bridge
 - Usb C (2.0) connector
-- Full isolated RS232 Capable
 - Analog Gain Control
 - single DB9 output connector for easy cabling.
 
